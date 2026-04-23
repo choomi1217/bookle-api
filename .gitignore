@@ -2,6 +2,11 @@
 .env
 .env.*
 !.env.example
+
+# === 저작권 보호 콘텐츠 (EC2 로 scp 직접 배포) ===
+# 미국(GitHub 호스팅 기준)에서 PD 가 아닌 책이 섞일 수 있어 전부 제외
+src/main/resources/books/*.txt
+!src/main/resources/books/.gitkeep
 *.key
 *.pem
 *.p8
