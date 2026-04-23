@@ -1,0 +1,71 @@
+# === Secrets (절대 커밋 금지) ===
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p8
+*.p12
+*.pfx
+*.jks
+*.keystore
+local.properties
+google-services.json
+GoogleService-Info.plist
+play-service-account.json
+credentials.json
+secrets.yml
+application-local.yml
+application-local.properties
+
+# === Gradle / Java 빌드 산출물 ===
+.gradle/
+build/
+out/
+bin/
+*.class
+*.jar
+*.war
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+hs_err_pid*.log
+replay_pid*.log
+
+# === IDE (IntelliJ / Eclipse / VSCode) ===
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+
+# === 편집기 백업 / 임시 파일 ===
+*.swp
+*.swo
+*~
+.#*
+#*#
+*.orig
+*.bak
+tmp/
+temp/
+
+# === OS ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# === 로그 ===
+*.log
+logs/
+
+# === Node / Expo (참고용 — 실제 모바일은 bookle-mobile 별도 저장소) ===
+node_modules/
+.expo/
+dist/
